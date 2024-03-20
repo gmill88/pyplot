@@ -34,3 +34,4 @@ Execute the notebook and export to HTML using
 ```bash
 !jupyter nbconvert --to html pyplot.ipynb
 ```
+Commit and push your HTML files to your GitHub repo along with the executed notebooks
