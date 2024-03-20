@@ -26,7 +26,12 @@ pip install matplotlib
 - Add a clickable link to your github repository in the introduction Markdown
 - Use markdown headings to show content by each question number
 - Complete the first task
-- After completion of the task, execute the notebook and push to Github
+- After completion of the task, execute the notebook and push to Github using
+```bash
+git add .
+git commit -m "your comment"
+git push origin main   
+``` 
 - Repeat these steps until all tasks are complete
 
 ## Export to HTML
