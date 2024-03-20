@@ -1,11 +1,36 @@
-# Matplotlib and pyplot
+# Project 3: Matplotlib and pyplot
 
-Complete the tasks in the Python Notebook in this repository.
-To be submitted for credit, all changes must be committed and pushed to this repository (do not create your own repository unless instructed to on the course website).
+## Project Objectives
 
-## Rubric
+The objective of this execise is to reinforce python visualization skills using Matplotlib.
 
-Each question is worth two points: 
+## Get Started
 
-* Data plotted as described by the question (1 pt)
-* Plot contains required elements (title, axis labels, axis titles, legend if required)
+1. Copy the base repository into your Github account by selecting "use this template"
+2.  Specify yourself as the owner
+3. Clone the repository to your machine
+
+## Activate Virtual Environment and Download External Environments
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+Install Matplotlib into the virtual environment
+```bash
+pip install matplotlib
+```
+
+## Open Notebook and Complete Tasks
+- Open the Jupyter notebook for editing
+- Add a clickable link to your github repository in the introduction Markdown
+- Use markdown headings to show content by each question number
+- Complete the first task
+- After completion of the task, execute the notebook and push to Github
+- Repeat these steps until all tasks are complete
+
+## Export to HTML
+Execute the notebook and export to HTML using
+```bash
+!jupyter nbconvert --to html pyplot.ipynb
+```
