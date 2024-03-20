@@ -30,7 +30,7 @@ pip install matplotlib
 ```bash
 git add .
 git commit -m "your comment"
-git push origin main   
+git push origin master   
 ``` 
 - Repeat these steps until all tasks are complete
 
